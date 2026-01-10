@@ -29,11 +29,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`
-          ${inter.variable} 
-          ${courier.variable} 
-          has-custom-cursor
-        `}
+        suppressHydrationWarning
+        className={`${inter.variable} ${courier.variable} has-custom-cursor`}
       >
         {/* Preloader sits at very top */}
         <Preloader />

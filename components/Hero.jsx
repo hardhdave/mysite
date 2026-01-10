@@ -55,29 +55,29 @@ export default function Hero() {
 
            {/* High Contrast Text (No blend mode) */}
            <div className="flex flex-col mb-8">
-             <TextReveal type="chars" className="text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
+             <TextReveal type="chars" className="text-5xl sm:text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
                HARDH
              </TextReveal>
-             <TextReveal type="chars" className="text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
+             <TextReveal type="chars" className="text-5xl sm:text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
                DAVE
              </TextReveal>
            </div>
 
            <div className="space-y-6 max-w-xl">
-              <TextReveal type="words" className="text-2xl md:text-3xl text-gray-100 font-light leading-snug">
+              <TextReveal type="words" className="text-xl md:text-3xl text-gray-100 font-light leading-snug">
                 Web developer specializing in creating responsive, high-performance web applications.
               </TextReveal>
               
-              <TextReveal delay={0.4} className="text-gray-300 text-lg leading-relaxed font-medium">
+              <TextReveal delay={0.4} className="text-gray-300 text-base md:text-lg leading-relaxed font-medium">
                 Passionate about clean code, smooth user experiences, and practical problem-solving.
               </TextReveal>
            </div>
            
-           <div className="mt-12 flex gap-6">
-              <a href="#work" className="px-8 py-4 bg-white text-black font-bold tracking-widest hover:bg-purple-400 transition-colors rounded-full shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+           <div className="mt-12 flex flex-wrap gap-4 md:gap-6">
+              <a href="#work" className="px-8 py-4 bg-white text-black font-bold tracking-widest hover:bg-purple-400 transition-colors rounded-full shadow-[0_0_20px_rgba(255,255,255,0.3)] text-sm md:text-base">
                 VIEW WORK
               </a>
-              <a href="#contact" className="px-8 py-4 border border-white/40 text-white font-bold tracking-widest hover:bg-white/10 transition-colors rounded-full">
+              <a href="#contact" className="px-8 py-4 border border-white/40 text-white font-bold tracking-widest hover:bg-white/10 transition-colors rounded-full text-sm md:text-base">
                 CONTACT
               </a>
            </div>
