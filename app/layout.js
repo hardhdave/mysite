@@ -23,6 +23,9 @@ const courier = Courier_Prime({
 export const metadata = {
   title: 'Futuristic Portfolio',
   description: 'A high-end futuristic portfolio for a software developer.',
+  verification: {
+    google: 'EY7ijag4RvMHD-xp9r_edj-hvvmysbwZZ3NAKlYWvs4',
+  },
 };
 
 export default function RootLayout({ children }) {
