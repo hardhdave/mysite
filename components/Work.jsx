@@ -44,9 +44,11 @@ export default function Work() {
       <div className="max-w-6xl mx-auto">
         {/* header */}
         <div className="mb-24 flex justify-between items-end">
-          <TextReveal type="lines" className="text-5xl md:text-6xl font-extrabold text-white">
-            Selected Work
-          </TextReveal>
+          <h2 className="text-5xl md:text-6xl font-extrabold text-white">
+            <TextReveal type="lines" className="inline">
+              Selected Work
+            </TextReveal>
+          </h2>
           <span className="text-sm text-neutral-400 tracking-widest">
             03 Projects
           </span>

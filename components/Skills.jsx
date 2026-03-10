@@ -57,9 +57,11 @@ export default function Skills() {
       <div className="max-w-7xl mx-auto">
         {/* heading */}
         <div className="mb-24 text-center">
-          <TextReveal className="text-5xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow-2xl">
-            Core Skills
-          </TextReveal>
+          <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow-2xl">
+            <TextReveal className="inline">
+              Core Skills
+            </TextReveal>
+          </h2>
           <p className="mt-4 text-sm text-gray-300 tracking-wide font-medium">
             Tools & technologies I use to build reliable products
           </p>

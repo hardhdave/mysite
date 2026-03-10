@@ -37,9 +37,11 @@ export default function Contact() {
 
       <div className="relative z-10 max-w-2xl mx-auto px-6">
         <div className="mb-16 text-center">
-          <TextReveal className="text-5xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400">
-            Let’s Talk
-          </TextReveal>
+          <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400">
+            <TextReveal className="inline">
+              Let’s Talk
+            </TextReveal>
+          </h2>
           <p className="mt-4 text-sm text-neutral-400">
             Have a project or idea? I’d love to hear from you.
           </p>

@@ -54,19 +54,21 @@ export default function Hero() {
            </div>
 
            {/* High Contrast Text (No blend mode) */}
-           <div className="flex flex-col mb-8">
+           <h1 className="flex flex-col mb-8" aria-label="Hardh Dave">
              <TextReveal type="chars" className="text-5xl sm:text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
                HARDH
              </TextReveal>
              <TextReveal type="chars" className="text-5xl sm:text-7xl md:text-9xl font-black leading-[0.9] tracking-tighter text-white drop-shadow-2xl">
                DAVE
              </TextReveal>
-           </div>
+           </h1>
 
            <div className="space-y-6 max-w-xl">
-              <TextReveal type="words" className="text-xl md:text-3xl text-gray-100 font-light leading-snug">
-                Web developer specializing in creating responsive, high-performance web applications.
-              </TextReveal>
+              <h2 className="text-xl md:text-3xl text-gray-100 font-light leading-snug">
+                <TextReveal type="words" className="inline">
+                  Web developer specializing in creating responsive, high-performance web applications.
+                </TextReveal>
+              </h2>
               
               <TextReveal delay={0.4} className="text-gray-300 text-base md:text-lg leading-relaxed font-medium">
                 Passionate about clean code, smooth user experiences, and practical problem-solving.

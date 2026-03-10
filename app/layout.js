@@ -21,8 +21,35 @@ const courier = Courier_Prime({
 });
 
 export const metadata = {
-  title: 'Futuristic Portfolio',
-  description: 'A high-end futuristic portfolio for a software developer.',
+  title: 'Hardh Dave | Futuristic Web Developer Portfolio',
+  description: 'High-end futuristic portfolio of Hardh Dave, a software developer specializing in modern, responsive, and high-performance web applications.',
+  keywords: ['Hardh Dave', 'Web Developer', 'Software Engineer', 'Frontend Developer', 'Full Stack Developer', 'React', 'Next.js', 'Portfolio'],
+  authors: [{ name: 'Hardh Dave' }],
+  creator: 'Hardh Dave',
+  publisher: 'Hardh Dave',
+  openGraph: {
+    title: 'Hardh Dave | Software Developer',
+    description: 'High-end futuristic portfolio showcasing modern web applications and software development skills.',
+    url: 'https://hardh-dave.dev', // Ensure the actual domain is used once known, this will do for general SEO
+    siteName: 'Hardh Dave Portfolio',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hardh Dave | Futuristic Web Developer',
+    description: 'Explore my high-end futuristic portfolio showcasing innovative web applications.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   verification: {
     google: 'EY7ijag4RvMHD-xp9r_edj-hvvmysbwZZ3NAKlYWvs4',
   },
