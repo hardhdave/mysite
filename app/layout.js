@@ -21,23 +21,23 @@ const courier = Courier_Prime({
 });
 
 export const metadata = {
-  title: 'Hardh Dave | Futuristic Web Developer Portfolio',
-  description: 'High-end futuristic portfolio of Hardh Dave, a software developer specializing in modern, responsive, and high-performance web applications.',
-  keywords: ['Hardh Dave', 'Web Developer', 'Software Engineer', 'Frontend Developer', 'Full Stack Developer', 'React', 'Next.js', 'Portfolio'],
+  title: 'Hardh Dave | Python & FastAPI Backend Developer Portfolio',
+  description: 'Hardh Dave portfolio. Expert Python backend developer, FastAPI backend developer, flask backend developer, Django backend developer, and Python API developer.',
+  keywords: ['Hardh Dave', 'Hardh Dave portfolio', 'FastAPI backend developer', 'Python backend developer', 'flask backend developer', 'Django backend developer', 'Python API developer', 'Web Developer', 'Software Engineer', 'React', 'Next.js', 'Portfolio'],
   authors: [{ name: 'Hardh Dave' }],
   creator: 'Hardh Dave',
   publisher: 'Hardh Dave',
   openGraph: {
-    title: 'Hardh Dave | Software Developer',
-    description: 'High-end futuristic portfolio showcasing modern web applications and software development skills.',
+    title: 'Hardh Dave | Python Backend Developer',
+    description: 'Hardh Dave portfolio showcasing expertise as a FastAPI, Flask, and Django backend developer.',
     url: 'https://hardh-dave.dev', // Ensure the actual domain is used once known, this will do for general SEO
     siteName: 'Hardh Dave Portfolio',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hardh Dave | Futuristic Web Developer',
-    description: 'Explore my high-end futuristic portfolio showcasing innovative web applications.',
+    title: 'Hardh Dave | Python API Developer',
+    description: 'Explore the Hardh Dave portfolio highlighting high-performance backend systems and Python API development.',
   },
   robots: {
     index: true,

@@ -9,6 +9,9 @@ export default function Home() {
   return (
     // Removed bg-black, let global background show through
     <div className="min-h-screen text-white overflow-x-hidden">
+      <h1 className="sr-only">
+        Hardh Dave portfolio. I am a Python backend developer, FastAPI backend developer, flask backend developer, Django backend developer, and Python API developer.
+      </h1>
       <Hero />
       <VelocityScroll />
       <Skills />
