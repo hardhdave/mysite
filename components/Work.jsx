@@ -12,23 +12,24 @@ export default function Work() {
 
   const projects = [
     {
-      title: 'Social App',
-      desc: 'Comprehensive social media platform with real-time interactions.',
-      link: 'https://socialapp-eulh.onrender.com/explore?filter=recent',
+      title: 'AI Vitamin Deficiency Detection',
+      desc: 'An AI-powered web app that analyzes symptoms and identifies potential vitamin deficiencies. Built with Python and Flask, it provides instant, data-driven health insights to help users understand nutritional gaps.',
+      link: 'https://ai-vitamin-deficiency-detection-1.onrender.com/',
       index: '01',
     },
     {
-      title: 'Resume Builder',
-      desc: 'Intuitive tool for crafting professional resumes with real-time preview.',
-      link: 'https://resume-builder-vf6d.onrender.com/builder',
+      title: 'Business Analyst Tool',
+      desc: 'An intelligent data analysis tool that takes Excel input and generates per-day business metrics — including net profit, margin percentage, cost ratio, profit status, cost risk, and risk reasons — empowering smarter business decisions.',
+      link: 'https://aibussinessanalyst-2.onrender.com/',
       index: '02',
     },
     {
-      title: 'Coming Soon',
-      desc: 'Exciting new project currently in development.',
-      link: '#',
+      title: 'Social App',
+      desc: 'Comprehensive social media platform with real-time interactions.',
+      link: 'https://socialapp-eulh.onrender.com/explore?filter=recent',
       index: '03',
     },
+
   ];
 
   useEffect(() => {

@@ -66,11 +66,10 @@ export default function Navbar() {
             </li>
           ))}
 
-          {/* resume */}
           <li>
             <a
-              href="/hardh rsume.pdf"
-              download
+              href="/hardh d resume.pdf"
+              download="Hardh_Dave_Resume.pdf"
               className="ml-4 rounded-full border border-purple-400/40 px-6 py-2 text-xs uppercase tracking-widest text-purple-300 transition-all hover:bg-purple-400 hover:text-black hover:border-purple-400"
             >
               Resume
@@ -114,8 +113,8 @@ export default function Navbar() {
             
             <li className="mt-8">
                <a
-                  href="/hardh rsume.pdf"
-                  download
+                  href="/hardh d resume.pdf"
+                  download="Hardh_Dave_Resume.pdf"
                   className="px-8 py-3 rounded-full bg-purple-500 text-black font-bold tracking-widest hover:bg-purple-400 transition-colors"
                >
                  RESUME

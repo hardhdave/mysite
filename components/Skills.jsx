@@ -35,12 +35,29 @@ export default function Skills() {
     </svg>
   );
 
+  const FastApiLogo = () => (
+    <svg viewBox="0 0 24 24" fill="none" className="w-16 h-16 transition-transform duration-300 group-hover:scale-110">
+      <circle cx="12" cy="12" r="10" fill="#009688" />
+      <path d="M13 6l-5 7h4l-2 5 7-8h-4z" fill="#ffffff" />
+    </svg>
+  );
+
+  const SeoLogo = () => (
+    <svg viewBox="0 0 24 24" fill="none" className="w-16 h-16 transition-transform duration-300 group-hover:scale-110">
+      <circle cx="10" cy="10" r="6" stroke="#a78bfa" strokeWidth="1.8" />
+      <path d="M14.5 14.5L19 19" stroke="#a78bfa" strokeWidth="1.8" strokeLinecap="round" />
+      <path d="M7 10h6M10 7v6" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+
   const skills = [
     { name: 'Python', icon: '/images/skills/python.png', type: 'image', invert: false },
     { name: 'Django', icon: '/images/skills/django.png', type: 'image', invert: false },
     { name: 'Flask', icon: FlaskLogo, type: 'component' },
+    { name: 'FastAPI', icon: FastApiLogo, type: 'component' },
     { name: 'MySQL', icon: '/images/skills/mysql.png', type: 'image', invert: false },
     { name: 'Prompting', icon: '/images/skills/prompting.png', type: 'image', invert: true },
+    { name: 'SEO', icon: SeoLogo, type: 'component' },
   ];
 
   // Removed GSAP entrance to ensure full availability
